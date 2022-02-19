@@ -27,16 +27,16 @@ O HTML da página é organizado da seguinte forma:
     - ao final faz a relação com o arquivo em JavaScript chamado "main.js".
 
 O documento "main.js" possui as seguintes instruções:  
-    - foi optado por adicionar todos os comandos em uma única função, que retorna um objeto com todas as instruções;
-    - o display da calculadora é selecionado com "document.querySelector";
-    - o método que chama todos os demais é "inicia()";
-    - o método "cliqueBotoes()" observa o evento de novos cliques através de "document.addEventListener";
-    - os cliques são classificados utilizando a classe dos botões e para cada clique, um evento diferente é chamado;
-    - o método "clearDisplay()" limpa a tela do display;
-    - o método "apagaUm()" apaga o último digito do display;
-    - o método "realizaConta()" executa o cálculo matemático através do método "eval";
-    - o método "pressionaEnter()" avalia se a tecla "enter" ou "esc" foi pressionada e chama os eventos associados;
-    - o método "btnParaDisplay()" não deixa repetir os caracters "/", "*", "+", "-" e envia os cliques para o display;
+    - foi optado por adicionar todos os comandos em uma única função, que retorna um objeto com todas as instruções;  
+    - o display da calculadora é selecionado com "document.querySelector";  
+    - o método que chama todos os demais é "inicia()";  
+    - o método "cliqueBotoes()" observa o evento de novos cliques através de "document.addEventListener";  
+    - os cliques são classificados utilizando a classe dos botões e para cada clique, um evento diferente é chamado;  
+    - o método "clearDisplay()" limpa a tela do display;  
+    - o método "apagaUm()" apaga o último digito do display;  
+    - o método "realizaConta()" executa o cálculo matemático através do método "eval";  
+    - o método "pressionaEnter()" avalia se a tecla "enter" ou "esc" foi pressionada e chama os eventos associados;  
+    - o método "btnParaDisplay()" não deixa repetir os caracters "/", "*", "+", "-" e envia os cliques para o display;  
     - ao final, é instanciada a função "criaCalculadora()" e chamado o método "calculadora.inicia()".
 
 # Funcionalidades
