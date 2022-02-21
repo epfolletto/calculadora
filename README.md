@@ -1,5 +1,6 @@
 <p align="center">
   <a href="#Projeto">Projeto</a> ◦ 
+  <a href="#Descrição">Descrição</a> ◦ 
   <a href="#Status">Status</a> ◦ 
   <a href="#Sobre">Sobre</a> ◦ 
   <a href="#Funcionalidades">Funcionalidades</a> ◦ 
@@ -10,6 +11,13 @@
 
 # Projeto
 Calculadora
+
+# Descrição
+Calculadora que efetua calculos simples, com função de adicionar parênteses e apagar dígitos, além das quatro operações fundamentais de 
+adição, subtração, multiplicação e divisão. Em caso de tentantiva de alguma expressão inválida, aparecerá uma mensagem de alerta "Conta inválida".
+<div>
+  <img src="assets/img/calculadora.png" alt="Calculadora.">
+</div>
 
 # Status
 Finalizado
